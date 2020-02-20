@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    position: relative;
+}
+form{
+    height: 300px;
+    width: 30%;
+    margin-top: 50px;
+    margin-left: 450px;
+    padding: 3px;
+    padding-top: 100px;
+    background-color: grey;
+
+}
+#display{
+    left: 470px;
+    top: 20px;
+    position: absolute;
+    background-color: black;
+    width: 210px;
+    height: 60px;
+    color: white;
+}
+input{
+    margin: 3px;
+    width: 50px;
+    background-color: ivory;
+}
+input:hover{
+    background-color: pink;
+}
